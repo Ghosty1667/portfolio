@@ -10,8 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.2",
+    "sass": "^1.71.1",
+    "sass:build": "sass --no-source-map src/styles/scss:src/styles/css",
+    "sass:watch": "sass --no-source-map --watch src/styles/scss:src/styles/css"
+
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
