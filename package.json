@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sass:watch": "sass --no-source-map --watch src/styles/scss:src/styles/css",
+    "sass:build": "sass --no-source-map src/styles/scss:src/styles/css"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
@@ -15,10 +17,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.2",
-    "sass": "^1.71.1",
-    "sass:build": "sass --no-source-map src/styles/scss:src/styles/css",
-    "sass:watch": "sass --no-source-map --watch src/styles/scss:src/styles/css"
-
+    "sass": "^1.71.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",

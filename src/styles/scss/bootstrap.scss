@@ -1,9 +1,9 @@
 $font-family-sans-serif: 'Open Sans', sans-serif;
 
-$primary: #c167ef;
-$secondary:#10bcee;
+$primary: #0f96d4;
+$secondary: #10ee40;
 $dark: #2b3041;
-$light:#f3f6f9;
+$light: #f3f6f9;
 
 //Spacers
 $spacer: 1rem !default;
@@ -22,8 +22,8 @@ $spacers: (
 
 //Navbar
 
-$navbar-padding-y:1rem;
-$navbar-dark-color:#fff;
+$navbar-padding-y: 1rem;
+$navbar-dark-color: #fff;
 $navbar-dark-hover-color: $secondary;
 
 $navbar-toggler-border-radius: 5px;
@@ -31,18 +31,18 @@ $navbar-toggler-border-radius: 5px;
 
 //button
 $button-radius: 50px;
-$button-padding-x:30px;
-$button-padding-y:10px;
+$button-padding-x: 30px;
+$button-padding-y: 10px;
 
-$btn-border-radius:$button-radius;
-$btn-border-radius-sm:$button-radius;
-$btn-border-radius-lg:$button-radius;
+$btn-border-radius: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$btn-border-radius-lg: $button-radius;
 
 $btn-padding-x: $button-padding-x;
 $btn-padding-x-sm: $button-padding-x;
 $btn-padding-x-lg: $button-padding-x;
 
-$button-padding-y:$button-padding-y;
+$button-padding-y: $button-padding-y;
 $button-padding-y-sm: $button-padding-y;
 $button-padding-y-lg: $button-padding-y;
 
