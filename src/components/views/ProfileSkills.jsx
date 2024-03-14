@@ -14,40 +14,39 @@ function ProfileSkills() {
                 <h5 className="text-transform">
                   <i className="bi bi-user text-primary"></i> Full Name:
                 </h5>
-                <p>Brad Traversy</p>
+                <p>Kieran Price</p>
               </li>
               <li className="list-group-item mb-3">
                 <h5 className="text-transform">
                   <i className="bi bi-calendar text-primary"></i> Birth Date:
                 </h5>
-                <p>August 10, 1981</p>
+                <p>November 16</p>
               </li>
               <li className="list-group-item mb-3">
                 <h5 className="text-transform">
                   <i className="bi bi-building text-primary"></i> Current
                   Position:
                 </h5>
-                <p>Owner at Traversy Media</p>
+                <p>Student</p>
               </li>
               <li className="list-group-item mb-3">
                 <h5 className="text-transform">
-                  <i className="bi bi-home text-primary"></i> Website:
+                  <i className="bi bi-web text-primary"></i> Website:
                 </h5>
-                <p>traversymedia.com</p>
+                <p>null</p>
               </li>
               <li className="list-group-item mb-3">
                 <h5 className="text-transform">
                   <i className="bi bi-envelope text-primary"></i> Email:
                 </h5>
-                <p>brad@gmail.com</p>
+                <p>enquires.kieran@gmail.com</p>
               </li>
             </ul>
           </div>
           <div className="col-md-6">
             <h3 className="text-uppercase fw-bold">Skills</h3>
             <p>
-              Here is a list of my skills with these dumb percentages that
-              don&apos;t mean anything 😉
+              Here is a list of my skills with my level of confindence in them
             </p>
             <h5>
               <i className="bi bi-check"></i> HTML 5
