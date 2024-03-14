@@ -8,8 +8,6 @@ import "./styles/css/bootstrap.css";
 import "./styles/css/styles.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
-
-
 const router = createBrowserRouter([
   {
     path: "/",

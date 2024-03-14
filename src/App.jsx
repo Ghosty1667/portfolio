@@ -1,15 +1,14 @@
-import AboutMe from "./compoments/AboutMe";
-// import ProfileSkills from "./compoments/ProfileSkills";
-import TitleCard from "./compoments/TitleCard";
+import AboutMe from "./components/views/AboutMe";
+import ProfileSkills from "./components/views/ProfileSkills";
+
+import TitleCard from "./components/views/TitleCard";
 
 function App() {
   return (
     <>
       <TitleCard />
       <AboutMe />
-      {/* <ProfileSkills /> */}
-
-
+      <ProfileSkills />
     </>
   );
 }
