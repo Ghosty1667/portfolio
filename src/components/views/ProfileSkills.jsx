@@ -12,32 +12,32 @@ function ProfileSkills() {
             <ul className="list-group list-group-flush">
               <li className="list-group-item mb-3">
                 <h5 className="text-transform">
-                  <i className="fas fa-user text-primary"></i> Full Name:
+                  <i className="bi bi-user text-primary"></i> Full Name:
                 </h5>
                 <p>Brad Traversy</p>
               </li>
               <li className="list-group-item mb-3">
                 <h5 className="text-transform">
-                  <i className="fas fa-calendar text-primary"></i> Birth Date:
+                  <i className="bi bi-calendar text-primary"></i> Birth Date:
                 </h5>
                 <p>August 10, 1981</p>
               </li>
               <li className="list-group-item mb-3">
                 <h5 className="text-transform">
-                  <i className="fas fa-building text-primary"></i> Current
+                  <i className="bi bi-building text-primary"></i> Current
                   Position:
                 </h5>
                 <p>Owner at Traversy Media</p>
               </li>
               <li className="list-group-item mb-3">
                 <h5 className="text-transform">
-                  <i className="fas fa-home text-primary"></i> Website:
+                  <i className="bi bi-home text-primary"></i> Website:
                 </h5>
                 <p>traversymedia.com</p>
               </li>
               <li className="list-group-item mb-3">
                 <h5 className="text-transform">
-                  <i className="fas fa-envelope text-primary"></i> Email:
+                  <i className="bi bi-envelope text-primary"></i> Email:
                 </h5>
                 <p>brad@gmail.com</p>
               </li>
@@ -50,7 +50,7 @@ function ProfileSkills() {
               don&apos;t mean anything 😉
             </p>
             <h5>
-              <i className="fas fa-check"></i> HTML 5
+              <i className="bi bi-check"></i> HTML 5
             </h5>
             <div
               className="progress mb-4"
@@ -65,7 +65,7 @@ function ProfileSkills() {
             </div>
 
             <h5>
-              <i className="fas fa-check"></i> CSS
+              <i className="bi bi-check"></i> CSS
             </h5>
             <div
               className="progress mb-4"
@@ -80,7 +80,7 @@ function ProfileSkills() {
             </div>
 
             <h5>
-              <i className="fas fa-check"></i> JavaScript
+              <i className="bi bi-check"></i> JavaScript
             </h5>
             <div
               className="progress mb-4"
@@ -95,7 +95,7 @@ function ProfileSkills() {
             </div>
 
             <h5>
-              <i className="fas fa-check"></i> Bootstrap
+              <i className="bi bi-check"></i> Bootstrap
             </h5>
             <div
               className="progress mb-4"
@@ -110,7 +110,7 @@ function ProfileSkills() {
             </div>
 
             <h5>
-              <i className="fas fa-check"></i> PHP
+              <i className="bi bi-check"></i> PHP
             </h5>
             <div
               className="progress mb-4"
@@ -119,13 +119,13 @@ function ProfileSkills() {
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div className="progress-bar" style={{ width: "75%" }}>
+              <div className="bi bi-check" style={{ width: "75%" }}>
                 75%
               </div>
             </div>
 
             <h5>
-              <i className="fas fa-check"></i> Python
+              <i className="bi bi-check"></i> Python
             </h5>
             <div
               className="progress mb-4"
@@ -140,7 +140,7 @@ function ProfileSkills() {
             </div>
 
             <h5>
-              <i className="fas fa-check"></i> UI/UX
+              <i className="bi bi-check"></i> UI/UX
             </h5>
             <div
               className="progress mb-4"

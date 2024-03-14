@@ -1,6 +1,6 @@
 import AboutMe from "./components/views/AboutMe";
 import ProfileSkills from "./components/views/ProfileSkills";
-
+import Showcase from "./components/views/Showcase";
 import TitleCard from "./components/views/TitleCard";
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <TitleCard />
       <AboutMe />
       <ProfileSkills />
+      <Showcase />
     </>
   );
 }

@@ -5,7 +5,8 @@ function TitleCard() {
     <header className="header vh-100 text-center position-relative">
       <div className="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100">
         <h5 className="text-primary fs-3 fw-bold text-uppercase">
-          <TypingText text="test test" delay={100} />
+          Hello World
+          <TypingText text="I am Kieran Price." delay={100} />
         </h5>
         <h1 id="typing-text" className="display-1 fw-bold text-white"></h1>
 
@@ -17,7 +18,7 @@ function TitleCard() {
         <a href="#about" className="btn btn-outline-light btn-lg mt-3">
           <div className="d-flex">
             <div className="me-3">
-              <i className="fas fa-chevron-down"></i>
+              <i className="bi bi-chevron-down"></i>
             </div>
             <div className="text-start">
               <span>More About Me</span>

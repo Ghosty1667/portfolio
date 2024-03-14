@@ -16,7 +16,11 @@ const TypingText = ({ text, delay }) => {
     }
   }, [currentIndex, delay, text]);
 
-  return <span>{currentText}</span>;
+  return (
+    <div id="typing-text" className="display-1 fw-bold text-white">
+      {currentText}
+    </div>
+  );
 };
 
 TypingText.propTypes = {

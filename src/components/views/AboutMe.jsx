@@ -13,10 +13,10 @@ function AboutMe() {
           <p className="lead">
             I am a full stack web developer from Boston MA. I started writing
             code about 16 years ago. I started with Java and then moved to web
-            technologies like HTML, CSS, JavaScript and PHP. I have worked for
-            companies as well as ran my own. In 2016 I started creating content
-            full-time. I love helping people learn to code and better their
-            lives.
+            technologies like HTML, CSS, JavaScript and PHP. As a fourth-year
+            Information and Communication Technology Student, I am eager to
+            secure a job where I can apply my academic knowledge and further
+            develop my skills in a professional setting.
           </p>
         </div>
       </div>
