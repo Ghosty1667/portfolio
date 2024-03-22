@@ -1,9 +1,15 @@
 import TypingText from "../animations/TypingText";
+import useFadeInOnScroll from "../animations/FadeOnScroll";
 
 function TitleCard() {
+  const text = useFadeInOnScroll("fade-in-up");
+
   return (
     <header className="header vh-100 text-center position-relative">
-      <div className="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100">
+      <div
+        ref={text}
+        className="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100"
+      >
         <h5 className="text-primary fs-3 fw-bold text-uppercase">
           Hello World
           <TypingText text="I am Kieran Price." delay={100} />
@@ -28,19 +34,7 @@ function TitleCard() {
 
         <div className="social d-flex gap-3 position-absolute">
           <a href="#">
-            <i className="bi bi-twitter text-white display-6"></i>
-          </a>
-          <a href="#">
-            <i className="bi bi-instagram text-white display-6"></i>
-          </a>
-          <a href="#">
             <i className="bi bi-linkedin  text-white display-6"></i>
-          </a>
-          <a href="#">
-            <i className="bi bi-facebook text-white display-6"></i>
-          </a>
-          <a href="#">
-            <i className="bi bi-youtube text-white display-6"></i>
           </a>
           <a href="#">
             <i className="bi bi-github text-white display-6"></i>

@@ -1,8 +1,11 @@
 import me from "../../images/Picture2.png";
+import useFadeInOnScroll from "../animations/FadeOnScroll";
 function AboutMe() {
+  const fadeIn = useFadeInOnScroll("fade-in-left");
+
   return (
     <section id="about" className="about bg-light py-5">
-      <div className="container">
+      <div ref={fadeIn} className="container">
         <div className="text-center">
           <h4 className="text-uppercase fw-bold text-primary">About Me</h4>
           <hr className="w-25 mx-auto" />
