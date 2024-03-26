@@ -2,8 +2,8 @@
 $font-family-sans-serif: 'Poppins', sans-serif;
 
 // Color
-$primary: #cc005f;
-$secondary: #990047;
+$primary: #C61EE1;
+$secondary: #D14BE7;
 $dark: #000;
 $light: #f4f4f4;
 
@@ -47,5 +47,15 @@ $container-max-widths: (
     xxl: 1000px,
     ) !default;
 
+@keyframes progress-bar {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
 
-@import"../../../node_modules/bootstrap/scss/bootstrap.scss"
+
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss"

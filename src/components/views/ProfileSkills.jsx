@@ -12,7 +12,7 @@ function ProfileSkills() {
             <ul className="list-group list-group-flush">
               <li className="list-group-item mb-3">
                 <h5 className="text-transform">
-                  <i className="bi bi-user text-primary"></i> Full Name:
+                  <i className="bi bi-person-fill text-primary"></i> Full Name:
                 </h5>
                 <p>Kieran Price</p>
               </li>
@@ -82,7 +82,7 @@ function ProfileSkills() {
               <i className="bi bi-check"></i> JavaScript
             </h5>
             <div
-              className="progress mb-4"
+              className="progress progress-animated mb-4"
               role="progressbar"
               aria-valuenow="90"
               aria-valuemin="0"
@@ -114,11 +114,11 @@ function ProfileSkills() {
             <div
               className="progress mb-4"
               role="progressbar"
-              aria-valuenow="75"
+              aria-valuenow="70"
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div className="bi bi-check" style={{ width: "75%" }}>
+              <div className="progress-bar" style={{ width: "75%" }}>
                 75%
               </div>
             </div>
@@ -133,7 +133,7 @@ function ProfileSkills() {
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div className="progress-bar" style={{ width: "75%" }}>
+              <div className="progress-bar" style={{ width: "70%" }}>
                 70%
               </div>
             </div>
