@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 
-import test from "../../images/bg.jpg";
 import techQuiz from "../../images/techQuiz.jpg";
 import natural from "../../images/Natural.jpg";
 import ebook from "../../images/ebook.jpg";
