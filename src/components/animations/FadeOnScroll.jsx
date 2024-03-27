@@ -4,6 +4,7 @@ const useFadeInOnScroll = (className) => {
   const elementRef = useRef(null);
 
   useEffect(() => {
+    const currentElement = elementRef.current;
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -12,16 +13,16 @@ const useFadeInOnScroll = (className) => {
       });
     });
 
-    if (elementRef.current) {
-      observer.observe(elementRef.current);
+    if (currentElement) {
+      observer.observe(currentElement);
     }
 
     return () => {
-      if (elementRef.current) {
-        observer.unobserve(elementRef.current);
+      if (currentElement) {
+        observer.unobserve(currentElement);
       }
     };
-  }, []);
+  }, [className]);
 
   return elementRef;
 };

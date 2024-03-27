@@ -1,85 +1,22 @@
-import test from "../../images/bg.jpg";
-
+import ShowcaseCarsoul from "../elements/ShowcaseCarsoul";
+import useFadeInOnScroll from "../../components/animations/FadeOnScroll";
 function Showcase() {
+  const fadeIn = useFadeInOnScroll("fade-in-left");
+
   return (
-    <div className="portifolo py-5 bg-light">
-      <div id="project" className="container">
-        <div id="carouselExampleCaptions" className="carousel slide">
-          <div className="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="0"
-              className="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
+    <div className="portifolo py-5 bg-secondary text-light">
+      <div ref={fadeIn} id="project" className="container-fluid">
+        <div className="row d-flex">
+          <div className="col-md-6 align-self-center align-content-center">
+            <h1 className="display-3 text-uppercase fw-bold">Projects</h1>
+            <p className="lead">
+              Here are some of the projects I have worked on. Click on the
+              project to view more details.
+            </p>
           </div>
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img src={test} className="d-block w-100" alt="..." />
-              <div className="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>
-                  Some representative placeholder content for the first slide.
-                </p>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img src={test} className="d-block w-100" alt="..." />
-              <div className="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>
-                  Some representative placeholder content for the second slide.
-                </p>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img src={test} className="d-block w-100" alt="..." />
-              <div className="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>
-                  Some representative placeholder content for the third slide.
-                </p>
-              </div>
-            </div>
+          <div className="col-md-6 align-self-center flex-fill">
+            <ShowcaseCarsoul carsoulID="#carouselExampleCaptions" />
           </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev"
-          >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next"
-          >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Next</span>
-          </button>
         </div>
       </div>
     </div>

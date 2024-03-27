@@ -18,7 +18,7 @@ function TitleCard() {
 
         <p className="roles text-white text-uppercase fs-4">
           <span>Full Stack Web Developer | </span>
-          <span>Online Educator</span>
+          <span>Software Engineer</span>
         </p>
 
         <a href="#about" className="btn btn-outline-light btn-lg mt-3">
@@ -33,10 +33,10 @@ function TitleCard() {
         </a>
 
         <div className="social d-flex gap-3 position-absolute">
-          <a href="#">
+          <a href="www.linkedin.com/in/kieran-price-q">
             <i className="bi bi-linkedin  text-white display-6"></i>
           </a>
-          <a href="#">
+          <a href="https://github.com/Ghosty1667">
             <i className="bi bi-github text-white display-6"></i>
           </a>
         </div>

@@ -1,11 +1,13 @@
-import SkillsCards from "../expermential/SkillsCards";
+import SkillsCards from "../elements/SkillsCards";
+import useFadeInOnScroll from "../animations/FadeOnScroll";
 
 function SkillsShowcase() {
+  const fadeUp = useFadeInOnScroll("fade-in-up");
   return (
     <section id="skills" className="skills bg-primary bg-gradient">
       <div className="container py-5">
-        <div className="row">
-          <h1 className="text-center display-3 text-uppercase fw-bold text-light">
+        <div ref={fadeUp} className="row">
+          <h1 className="text-center display-3 text-uppercase fw-bold text-light ">
             Skills
           </h1>
           <SkillsCards

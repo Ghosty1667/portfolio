@@ -1,8 +1,14 @@
+import AnimatedProgress from "../animations/AnimatedProgress";
+import ProfileInformation from "../elements/ProfileInformation";
+import useFadeInOnScroll from "../animations/FadeOnScroll";
+
 function ProfileSkills() {
+  const fadeInLeft = useFadeInOnScroll("fade-in-left");
+
   return (
     <section className="profile my-6">
       <div className="container">
-        <div className="row">
+        <div ref={fadeInLeft} className="row">
           <div className="col-md-6">
             <h3 className="text-uppercase fw-bold">Profile</h3>
             <p>
@@ -10,37 +16,31 @@ function ProfileSkills() {
               better.
             </p>
             <ul className="list-group list-group-flush">
-              <li className="list-group-item mb-3">
-                <h5 className="text-transform">
-                  <i className="bi bi-person-fill text-primary"></i> Full Name:
-                </h5>
-                <p>Kieran Price</p>
-              </li>
-              <li className="list-group-item mb-3">
-                <h5 className="text-transform">
-                  <i className="bi bi-calendar text-primary"></i> Birth Date:
-                </h5>
-                <p>November 16</p>
-              </li>
-              <li className="list-group-item mb-3">
-                <h5 className="text-transform">
-                  <i className="bi bi-building text-primary"></i> Current
-                  Position:
-                </h5>
-                <p>Student</p>
-              </li>
-              <li className="list-group-item mb-3">
-                <h5 className="text-transform">
-                  <i className="bi bi-web text-primary"></i> Website:
-                </h5>
-                <p>null</p>
-              </li>
-              <li className="list-group-item mb-3">
-                <h5 className="text-transform">
-                  <i className="bi bi-envelope text-primary"></i> Email:
-                </h5>
-                <p>enquires.kieran@gmail.com</p>
-              </li>
+              <ProfileInformation
+                label="Full Name:"
+                value="Kieran Price"
+                icon="bi-person-fill"
+              />
+              <ProfileInformation
+                label="Birth Date:"
+                value="November 16"
+                icon="bi-calendar"
+              />
+              <ProfileInformation
+                label="Current Position:"
+                value="Student"
+                icon="bi-building"
+              />
+              <ProfileInformation
+                label="Website:"
+                value="null"
+                icon="bi-building"
+              />
+              <ProfileInformation
+                label="Email:"
+                value="enquires.kieran@gmail.com"
+                icon="bi-building"
+              />
             </ul>
           </div>
           <div className="col-md-6">
@@ -48,127 +48,58 @@ function ProfileSkills() {
             <p>
               Here is a list of my skills with my level of confindence in them
             </p>
-            <h5>
-              <i className="bi bi-check"></i> HTML 5
-            </h5>
-            <div
-              className="progress mb-4"
-              role="progressbar"
-              aria-valuenow="100"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <div className="progress-bar" style={{ width: "100%" }}>
-                100%
-              </div>
-            </div>
-
-            <h5>
-              <i className="bi bi-check"></i> CSS
-            </h5>
-            <div
-              className="progress mb-4"
-              role="progressbar"
-              aria-valuenow="90"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <div className="progress-bar" style={{ width: "90%" }}>
-                90%
-              </div>
-            </div>
-
-            <h5>
-              <i className="bi bi-check"></i> JavaScript
-            </h5>
-            <div
-              className="progress progress-animated mb-4"
-              role="progressbar"
-              aria-valuenow="90"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <div className="progress-bar" style={{ width: "90%" }}>
-                90%
-              </div>
-            </div>
-
-            <h5>
-              <i className="bi bi-check"></i> Bootstrap
-            </h5>
-            <div
-              className="progress mb-4"
-              role="progressbar"
-              aria-valuenow="100"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <div className="progress-bar" style={{ width: "100%" }}>
-                100%
-              </div>
-            </div>
-
-            <h5>
-              <i className="bi bi-check"></i> PHP
-            </h5>
-            <div
-              className="progress mb-4"
-              role="progressbar"
-              aria-valuenow="70"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <div className="progress-bar" style={{ width: "75%" }}>
-                75%
-              </div>
-            </div>
-
-            <h5>
-              <i className="bi bi-check"></i> Python
-            </h5>
-            <div
-              className="progress mb-4"
-              role="progressbar"
-              aria-valuenow="70"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <div className="progress-bar" style={{ width: "70%" }}>
-                70%
-              </div>
-            </div>
-
-            <h5>
-              <i className="bi bi-check"></i> UI/UX
-            </h5>
-            <div
-              className="progress mb-4"
-              role="progressbar"
-              aria-valuenow="70"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <div className="progress-bar" style={{ width: "70%" }}>
-                70%
-              </div>
-            </div>
+            <AnimatedProgress
+              label="React"
+              value={90}
+              className="animated-progress-bar"
+            />
+            <AnimatedProgress
+              label="CSS"
+              value={79}
+              className="animated-progress-bar"
+            />
+            <AnimatedProgress
+              label="Express"
+              value={87}
+              className="animated-progress-bar"
+            />
+            <AnimatedProgress
+              label="Javascript"
+              value={91}
+              className="animated-progress-bar"
+            />
+            <AnimatedProgress
+              label="C# / Java"
+              value={71}
+              className="animated-progress-bar"
+            />
+            <AnimatedProgress
+              label="ASP.net"
+              value={78}
+              className="animated-progress-bar"
+            />
+            <AnimatedProgress
+              label="UX/UI"
+              value={81}
+              className="animated-progress-bar"
+            />
           </div>
         </div>
-        <div className="row mt-5 text-center">
-          <div className="col-12">
-            <a
-              href="#"
-              className="btn btn-outline-dark btn-lg text-uppercase px-5 mx-3 my-2"
-            >
-              Hire Me Now
-            </a>
-            <a
-              href="#"
-              className="btn btn-dark btn-lg text-uppercase px-5 mx-3 my-2"
-            >
-              Download CV
-            </a>
-          </div>
+      </div>
+      <div className="row mt-5 text-center">
+        <div className="col-12">
+          <a
+            href="mailto:enquires.kieran@gmail.com"
+            className="btn btn-outline-dark btn-lg text-uppercase px-5 mx-3 my-2"
+          >
+            Contact Me
+          </a>
+          <a
+            href="#"
+            className="btn btn-dark btn-lg text-uppercase px-5 mx-3 my-2"
+          >
+            Download CV
+          </a>
         </div>
       </div>
     </section>
