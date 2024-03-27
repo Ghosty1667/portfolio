@@ -1,11 +1,11 @@
 import ShowcaseCarsoul from "../elements/ShowcaseCarsoul";
 import useFadeInOnScroll from "../../components/animations/FadeOnScroll";
 function Showcase() {
-  const fadeIn = useFadeInOnScroll("fade-in-left");
+  const fadeInLeft = useFadeInOnScroll("fade-in-left");
 
   return (
     <div className="portifolo py-5 bg-secondary text-light">
-      <div ref={fadeIn} id="project" className="container-fluid">
+      <div ref={fadeInLeft} id="project" className="container-fluid">
         <div className="row d-flex">
           <div className="col-md-6 align-self-center align-content-center">
             <h1 className="display-3 text-uppercase fw-bold">Projects</h1>

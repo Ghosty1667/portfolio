@@ -16,8 +16,8 @@ function AboutMe() {
           <p className="lead">
             I am a full stack web developer living in Brisbane. I started with
             Java as a kid before focusing on web technologies like HTML, CSS,
-            JavaScript and PHP. As a final semsemster as Computer Science
-            Student, I am eager to secure a job where I can apply my academic
+            JavaScript and PHP. As a final semester as Computer Science Student,
+            I am eager to secure a future where I can apply my academic
             knowledge and further develop my skills in a professional setting.
           </p>
         </div>

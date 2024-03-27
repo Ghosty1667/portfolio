@@ -38,7 +38,7 @@ function ProfileSkills() {
               />
               <ProfileInformation
                 label="Email:"
-                value="enquires.kieran@gmail.com"
+                value="enquires.kieranp@gmail.com"
                 icon="bi-building"
               />
             </ul>
