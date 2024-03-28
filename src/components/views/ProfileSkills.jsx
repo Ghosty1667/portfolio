@@ -33,12 +33,12 @@ function ProfileSkills() {
               />
               <ProfileInformation
                 label="Website:"
-                value="null"
+                value="https://ghosty1667.github.io/portfolio/"
                 icon="bi-building"
               />
               <ProfileInformation
                 label="Email:"
-                value="enquires.kieranp@gmail.com"
+                value="kpricebiz@gmail.com"
                 icon="bi-building"
               />
             </ul>
@@ -89,13 +89,13 @@ function ProfileSkills() {
       <div className="row mt-5 text-center">
         <div className="col-12">
           <a
-            href="mailto:enquires.kieran@gmail.com"
+            href="mailto:kpricebiz@gmail.com"
             className="btn btn-outline-dark btn-lg text-uppercase px-5 mx-3 my-2"
           >
             Contact Me
           </a>
           <a
-            href="#"
+            href="https://drive.google.com/file/d/1lydxiOWnPsWIyys-W4JvYsHWVzv8zk1V/view?usp=sharing"
             className="btn btn-dark btn-lg text-uppercase px-5 mx-3 my-2"
           >
             Download CV
