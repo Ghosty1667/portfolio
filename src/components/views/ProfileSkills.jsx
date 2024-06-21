@@ -86,7 +86,7 @@ function ProfileSkills() {
           </div>
         </div>
       </div>
-      <div className="row mt-5 text-center">
+      <div className="mt-4 text-center">
         <div className="col-12">
           <a
             href="mailto:kpricebiz@gmail.com"

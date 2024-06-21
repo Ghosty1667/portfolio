@@ -1,5 +1,5 @@
 .header {
-  background: #151515 url("../../images/aboutme-bg.png") no-repeat center center;
+  background: #151515 url("../../images/aboutme-bg.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -40,7 +40,7 @@
 @keyframes fadeInUp {
   0% {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(30%);
   }
 
   100% {
@@ -52,7 +52,7 @@
 @keyframes fadeInLeft {
   0% {
     opacity: 0;
-    transform: translateX(20px);
+    transform: translateX(30%);
   }
 
   100% {
@@ -62,11 +62,13 @@
 }
 
 
-.fade-in-up{
+.fade-in-up {
   animation: fadeInUp 1s ease-in-out;
 }
 
 .fade-in-left {
+
+  overflow: hidden;
   animation: fadeInLeft 1s ease-in-out;
 }
 
@@ -81,5 +83,5 @@
 }
 
 .animated-progress-bar {
-  animation: progress-animation 5s forwards;
+  animation: progress-animation 3s forwards;
 }
