@@ -22,14 +22,14 @@ function ProfileSkills() {
                 icon="bi-person-fill"
               />
               <ProfileInformation
-                label="Birth Date:"
-                value="November 16"
-                icon="bi-calendar"
+                label="Hobbies"
+                value="Cooking, Graphic Design"
+                icon="bi-cookie"
               />
               <ProfileInformation
                 label="Current Position:"
-                value="Student"
-                icon="bi-building"
+                value="None"
+                icon="bi-person-standing"
               />
               <ProfileInformation
                 label="Website:"
@@ -39,14 +39,14 @@ function ProfileSkills() {
               <ProfileInformation
                 label="Email:"
                 value="kpricebiz@gmail.com"
-                icon="bi-building"
+                icon="bi-envelope"
               />
             </ul>
           </div>
           <div className="col-md-6">
             <h3 className="text-uppercase fw-bold">Skills</h3>
             <p>
-              Here is a list of my skills with my level of confindence in them
+              Here is a list of my technical skills with my level of confindence in them
             </p>
             <AnimatedProgress
               label="React"
@@ -95,7 +95,7 @@ function ProfileSkills() {
             Contact Me
           </a>
           <a
-            href="https://drive.google.com/file/d/1lydxiOWnPsWIyys-W4JvYsHWVzv8zk1V/view?usp=sharing"
+            href="https://docs.google.com/document/d/1Hzig785Jv5ryVdpjNf8q4epYa5GLXPhR/edit?usp=sharing&ouid=110703715975287713270&rtpof=true&sd=true"
             className="btn btn-dark btn-lg text-uppercase px-5 mx-3 my-2"
           >
             Download CV
