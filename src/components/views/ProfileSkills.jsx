@@ -95,7 +95,7 @@ function ProfileSkills() {
             Contact Me
           </a>
           <a
-            href="https://docs.google.com/document/d/1Hzig785Jv5ryVdpjNf8q4epYa5GLXPhR/edit?usp=sharing&ouid=110703715975287713270&rtpof=true&sd=true"
+            href="https://drive.google.com/file/d/1hsvt6KincgDMpmjO7fFKyH0qqIxMkPFo/view?usp=sharing"
             className="btn btn-dark btn-lg text-uppercase px-5 mx-3 my-2"
           >
             Download CV
