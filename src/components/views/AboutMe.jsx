@@ -11,7 +11,7 @@ function AboutMe() {
           <hr className="w-25 mx-auto" />
           <h2 className="mb-4">Let me introduce myself.</h2>
         </div>
-        <div className="about-content d-flex gap-5 align-items-center h-100">
+        <div className="about-content d-flex gap-5 align-items-center h-100 flex-md-nowrap justify-content-center flex-wrap">
           <img src={me} alt="" className="about-img img-fluid rounded-circle" />
           <p className="lead">
             I am a full stack web developer living in Brisbane. I started with
