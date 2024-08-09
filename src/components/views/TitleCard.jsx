@@ -33,7 +33,7 @@ function TitleCard() {
         </a>
 
         <div className="social d-flex gap-3 position-absolute">
-          <a href="www.linkedin.com/in/kieran-price-q">
+          <a href="https://www.linkedin.com/in/kieran-price-q">
             <i className="bi bi-linkedin  text-white display-6"></i>
           </a>
           <a href="https://github.com/Ghosty1667">
