@@ -7,7 +7,7 @@ function ShowcaseCarsoulItem({ title, description, image, alt, active, link }) {
         <img src={image} className="d-block w-100" alt={alt} />
         <div
           className="carousel-caption d-none d-md-block bg-gradient text-light bg-dark "
-          style={{ "--bs-bg-opacity": 0.5 }}
+          style={{ "--bs-bg-opacity": 0.9 }}
         >
           <h5>{title}</h5>
           <p>{description}</p>
