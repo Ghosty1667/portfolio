@@ -14,11 +14,9 @@ function AboutMe() {
         <div className="about-content d-flex gap-5 align-items-center h-100 flex-md-nowrap justify-content-center flex-wrap">
           <img src={me} alt="" className="about-img img-fluid rounded-circle" />
           <p className="lead">
-            I am a full stack web developer living in Brisbane. I started with
-            Java as a kid before focusing on web technologies like HTML, CSS,
-            JavaScript. As a final semester as Computer Science Student,
-            I am eager to secure a future where I can apply my academic
-            knowledge and further develop my skills in a professional setting.
+            I am a full-stack web developer based in Brisbane, with a passion for web technologies like HTML, CSS, and JavaScript, starting my journey in coding with Java.
+            Now holding a degree in Information Technology, I am excited to apply my academic knowledge and further develop my skills in a professional setting.
+            I&apos;m eager to contribute to innovative projects while continuously growing in the tech industry.
           </p>
         </div>
       </div>
